@@ -30,20 +30,6 @@
           "name" : "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/Starscream_Starscream.bundle/PrivacyInfo.xcprivacy"
         }
       ]
-    },
-    "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/WebRTC.framework" : {
-      "inputs" : [
-        {
-          "kind" : "directory",
-          "name" : "/Users/abdullah/GravlinkSDK/.build/artifacts/webrtc/WebRTC/WebRTC.xcframework/macos-x86_64_arm64/WebRTC.framework"
-        }
-      ],
-      "outputs" : [
-        {
-          "kind" : "directory",
-          "name" : "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/WebRTC.framework"
-        }
-      ]
     }
   },
   "explicitTargetDependencyImportCheckingMode" : {
@@ -567,110 +553,6 @@
         "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/Alamofire.build/DerivedSources/resource_bundle_accessor.swift"
       ],
       "tempsPath" : "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/Alamofire.build",
-      "wholeModuleOptimization" : false
-    },
-    "C.GravlinkExtras-debug.module" : {
-      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
-      "fileList" : "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/GravlinkExtras.build/sources",
-      "importPath" : "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug",
-      "inputs" : [
-        {
-          "kind" : "file",
-          "name" : "/Users/abdullah/GravlinkSDK/Sources/GravlinkSDK/GravlinkSDK.swift"
-        },
-        {
-          "kind" : "file",
-          "name" : "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
-        },
-        {
-          "kind" : "file",
-          "name" : "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/Alamofire.swiftmodule"
-        },
-        {
-          "kind" : "file",
-          "name" : "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/SocketIO.swiftmodule"
-        },
-        {
-          "kind" : "directory",
-          "name" : "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/WebRTC.framework"
-        },
-        {
-          "kind" : "file",
-          "name" : "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/GravlinkExtras.build/sources"
-        }
-      ],
-      "isLibrary" : true,
-      "moduleName" : "GravlinkExtras",
-      "moduleOutputPath" : "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/GravlinkExtras.swiftmodule",
-      "objects" : [
-        "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/GravlinkExtras.build/GravlinkSDK.swift.o"
-      ],
-      "otherArguments" : [
-        "-target",
-        "arm64-apple-macosx10.13",
-        "-swift-version",
-        "5",
-        "-enable-batch-mode",
-        "-index-store-path",
-        "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/index/store",
-        "-Onone",
-        "-enable-testing",
-        "-j10",
-        "-DSWIFT_PACKAGE",
-        "-DDEBUG",
-        "-I",
-        "/Users/abdullah/GravlinkSDK/.build/artifacts/webrtc/WebRTC/WebRTC.xcframework/macos-x86_64_arm64",
-        "-Xcc",
-        "-I",
-        "-Xcc",
-        "/Users/abdullah/GravlinkSDK/.build/artifacts/webrtc/WebRTC/WebRTC.xcframework/macos-x86_64_arm64",
-        "-module-cache-path",
-        "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/ModuleCache",
-        "-parseable-output",
-        "-parse-as-library",
-        "-F",
-        "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug",
-        "-emit-objc-header",
-        "-emit-objc-header-path",
-        "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/GravlinkExtras.build/GravlinkExtras-Swift.h",
-        "-color-diagnostics",
-        "-sdk",
-        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
-        "-F",
-        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
-        "-I",
-        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
-        "-L",
-        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
-        "-g",
-        "-Xcc",
-        "-isysroot",
-        "-Xcc",
-        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
-        "-Xcc",
-        "-F",
-        "-Xcc",
-        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
-        "-Xcc",
-        "-fPIC",
-        "-Xcc",
-        "-g"
-      ],
-      "outputFileMapPath" : "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/GravlinkExtras.build/output-file-map.json",
-      "outputs" : [
-        {
-          "kind" : "file",
-          "name" : "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/GravlinkExtras.build/GravlinkSDK.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/GravlinkExtras.swiftmodule"
-        }
-      ],
-      "sources" : [
-        "/Users/abdullah/GravlinkSDK/Sources/GravlinkSDK/GravlinkSDK.swift"
-      ],
-      "tempsPath" : "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/GravlinkExtras.build",
       "wholeModuleOptimization" : false
     },
     "C.SocketIO-debug.module" : {
@@ -1386,67 +1268,6 @@
       "-driver-use-frontend-path",
       "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
     ],
-    "GravlinkExtras" : [
-      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
-      "-module-name",
-      "GravlinkExtras",
-      "-incremental",
-      "-c",
-      "/Users/abdullah/GravlinkSDK/Sources/GravlinkSDK/GravlinkSDK.swift",
-      "-I",
-      "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug",
-      "-target",
-      "arm64-apple-macosx10.13",
-      "-swift-version",
-      "5",
-      "-enable-batch-mode",
-      "-index-store-path",
-      "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/index/store",
-      "-Onone",
-      "-enable-testing",
-      "-j10",
-      "-DSWIFT_PACKAGE",
-      "-DDEBUG",
-      "-I",
-      "/Users/abdullah/GravlinkSDK/.build/artifacts/webrtc/WebRTC/WebRTC.xcframework/macos-x86_64_arm64",
-      "-Xcc",
-      "-I",
-      "-Xcc",
-      "/Users/abdullah/GravlinkSDK/.build/artifacts/webrtc/WebRTC/WebRTC.xcframework/macos-x86_64_arm64",
-      "-module-cache-path",
-      "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/ModuleCache",
-      "-parseable-output",
-      "-parse-as-library",
-      "-F",
-      "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug",
-      "-emit-objc-header",
-      "-emit-objc-header-path",
-      "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/GravlinkExtras.build/GravlinkExtras-Swift.h",
-      "-color-diagnostics",
-      "-sdk",
-      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
-      "-F",
-      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
-      "-I",
-      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
-      "-L",
-      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
-      "-g",
-      "-Xcc",
-      "-isysroot",
-      "-Xcc",
-      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
-      "-Xcc",
-      "-F",
-      "-Xcc",
-      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
-      "-Xcc",
-      "-fPIC",
-      "-Xcc",
-      "-g",
-      "-driver-use-frontend-path",
-      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
-    ],
     "SocketIO" : [
       "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
       "-module-name",
@@ -1602,13 +1423,6 @@
   "targetDependencyMap" : {
     "Alamofire" : [
 
-    ],
-    "GravlinkExtras" : [
-      "SocketIO",
-      "Starscream",
-      "WebRTC",
-      "Alamofire",
-      "GravlinkBinary"
     ],
     "SocketIO" : [
       "Starscream"
@@ -1987,20 +1801,6 @@
         }
       ],
       "outputFilePath" : "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/AlamofireDynamic.product/Objects.LinkFileList"
-    },
-    "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/GravlinkExtras.build/sources" : {
-      "alwaysOutOfDate" : false,
-      "inputs" : [
-        {
-          "kind" : "virtual",
-          "name" : "<sources-file-list>"
-        },
-        {
-          "kind" : "file",
-          "name" : "/Users/abdullah/GravlinkSDK/Sources/GravlinkSDK/GravlinkSDK.swift"
-        }
-      ],
-      "outputFilePath" : "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/GravlinkExtras.build/sources"
     },
     "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/SocketIO.build/sources" : {
       "alwaysOutOfDate" : false,

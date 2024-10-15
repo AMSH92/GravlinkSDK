@@ -5,17 +5,13 @@ tools: {}
 targets:
   "Alamofire-debug.module": ["<Alamofire-debug.module>"]
   "AlamofireDynamic-debug.dylib": ["<AlamofireDynamic-debug.dylib>"]
-  "GravlinkExtras-debug.module": ["<GravlinkExtras-debug.module>"]
   "PackageStructure": ["<PackageStructure>"]
   "SocketIO-debug.module": ["<SocketIO-debug.module>"]
   "Starscream-debug.module": ["<Starscream-debug.module>"]
-  "main": ["<GravlinkExtras-debug.module>"]
-  "test": ["<GravlinkExtras-debug.module>"]
+  "main": []
+  "test": []
 default: "main"
 nodes:
-  "/Users/abdullah/GravlinkSDK/Sources/":
-    is-directory-structure: true
-    content-exclusion-patterns: [".git",".build"]
   "/Users/abdullah/GravlinkSDK/Sources/GlinkFramwork.xcframework/":
     is-directory-structure: true
     content-exclusion-patterns: [".git",".build"]
@@ -38,12 +34,6 @@ commands:
     outputs: ["/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/Alamofire_Alamofire.bundle/PrivacyInfo.xcprivacy"]
     description: "Copying /Users/abdullah/GravlinkSDK/.build/checkouts/Alamofire/Source/PrivacyInfo.xcprivacy"
 
-  "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/GravlinkExtras.build/sources":
-    tool: write-auxiliary-file
-    inputs: ["<sources-file-list>","/Users/abdullah/GravlinkSDK/Sources/GravlinkSDK/GravlinkSDK.swift"]
-    outputs: ["/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/GravlinkExtras.build/sources"]
-    description: "Write auxiliary file /Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/GravlinkExtras.build/sources"
-
   "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/SocketIO.build/sources":
     tool: write-auxiliary-file
     inputs: ["<sources-file-list>","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Ack/SocketAckEmitter.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Ack/SocketAckManager.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Client/SocketAnyEvent.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Client/SocketEventHandler.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Client/SocketIOClient.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Client/SocketIOClientConfiguration.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Client/SocketIOClientOption.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Client/SocketIOClientSpec.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Client/SocketIOStatus.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Client/SocketRawView.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Engine/SocketEngine.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Engine/SocketEngineClient.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Engine/SocketEnginePacketType.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Engine/SocketEnginePollable.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Engine/SocketEngineSpec.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Engine/SocketEngineWebsocket.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Manager/SocketManager.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Manager/SocketManagerSpec.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Parse/SocketPacket.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Parse/SocketParsable.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Util/SocketExtensions.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Util/SocketLogger.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Util/SocketStringReader.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Util/SocketTypes.swift"]
@@ -62,12 +52,6 @@ commands:
     outputs: ["/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/Starscream_Starscream.bundle/PrivacyInfo.xcprivacy"]
     description: "Copying /Users/abdullah/GravlinkSDK/.build/checkouts/Starscream/Sources/PrivacyInfo.xcprivacy"
 
-  "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/WebRTC.framework":
-    tool: copy-tool
-    inputs: ["/Users/abdullah/GravlinkSDK/.build/artifacts/webrtc/WebRTC/WebRTC.xcframework/macos-x86_64_arm64/WebRTC.framework/"]
-    outputs: ["/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/WebRTC.framework/"]
-    description: "Copying /Users/abdullah/GravlinkSDK/.build/artifacts/webrtc/WebRTC/WebRTC.xcframework/macos-x86_64_arm64/WebRTC.framework"
-
   "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt":
     tool: write-auxiliary-file
     inputs: ["<swift-get-version>","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"]
@@ -84,11 +68,6 @@ commands:
     tool: phony
     inputs: ["/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/libAlamofireDynamic.dylib"]
     outputs: ["<AlamofireDynamic-debug.dylib>"]
-
-  "<GravlinkExtras-debug.module>":
-    tool: phony
-    inputs: ["/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/GravlinkExtras.build/GravlinkSDK.swift.o","/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/GravlinkExtras.swiftmodule"]
-    outputs: ["<GravlinkExtras-debug.module>"]
 
   "<SocketIO-debug.module>":
     tool: phony
@@ -119,13 +98,6 @@ commands:
     description: "Linking ./.build/arm64-apple-macosx/debug/libAlamofireDynamic.dylib"
     args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-L","/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug","-o","/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/libAlamofireDynamic.dylib","-module-name","AlamofireDynamic","-emit-library","-Xlinker","-install_name","-Xlinker","@rpath/libAlamofireDynamic.dylib","-Xlinker","-rpath","-Xlinker","@loader_path","@/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/AlamofireDynamic.product/Objects.LinkFileList","-Xlinker","-rpath","-Xlinker","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.5/macosx","-target","arm64-apple-macosx10.13","-framework","CFNetwork","-Xlinker","-add_ast_path","-Xlinker","/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/Alamofire.swiftmodule","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g"]
 
-  "C.GravlinkExtras-debug.module":
-    tool: shell
-    inputs: ["/Users/abdullah/GravlinkSDK/Sources/GravlinkSDK/GravlinkSDK.swift","/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/Alamofire.swiftmodule","/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/SocketIO.swiftmodule","/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/WebRTC.framework/","/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/GravlinkExtras.build/sources"]
-    outputs: ["/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/GravlinkExtras.build/GravlinkSDK.swift.o","/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/GravlinkExtras.swiftmodule"]
-    description: "Compiling Swift Module 'GravlinkExtras' (1 sources)"
-    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","GravlinkExtras","-emit-dependencies","-emit-module","-emit-module-path","/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/GravlinkExtras.swiftmodule","-output-file-map","/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/GravlinkExtras.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/GravlinkExtras.build/sources","-I","/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug","-target","arm64-apple-macosx10.13","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j10","-DSWIFT_PACKAGE","-DDEBUG","-I","/Users/abdullah/GravlinkSDK/.build/artifacts/webrtc/WebRTC/WebRTC.xcframework/macos-x86_64_arm64","-Xcc","-I","-Xcc","/Users/abdullah/GravlinkSDK/.build/artifacts/webrtc/WebRTC/WebRTC.xcframework/macos-x86_64_arm64","-module-cache-path","/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-F","/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug","-emit-objc-header","-emit-objc-header-path","/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/GravlinkExtras.build/GravlinkExtras-Swift.h","-color-diagnostics","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g"]
-
   "C.SocketIO-debug.module":
     tool: shell
     inputs: ["/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Ack/SocketAckEmitter.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Ack/SocketAckManager.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Client/SocketAnyEvent.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Client/SocketEventHandler.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Client/SocketIOClient.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Client/SocketIOClientConfiguration.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Client/SocketIOClientOption.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Client/SocketIOClientSpec.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Client/SocketIOStatus.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Client/SocketRawView.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Engine/SocketEngine.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Engine/SocketEngineClient.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Engine/SocketEnginePacketType.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Engine/SocketEnginePollable.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Engine/SocketEngineSpec.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Engine/SocketEngineWebsocket.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Manager/SocketManager.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Manager/SocketManagerSpec.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Parse/SocketPacket.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Parse/SocketParsable.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Util/SocketExtensions.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Util/SocketLogger.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Util/SocketStringReader.swift","/Users/abdullah/GravlinkSDK/.build/checkouts/socket.io-client-swift/Source/SocketIO/Util/SocketTypes.swift","/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/Starscream.swiftmodule","/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/SocketIO.build/sources"]
@@ -142,7 +114,7 @@ commands:
 
   "PackageStructure":
     tool: package-structure-tool
-    inputs: ["/Users/abdullah/GravlinkSDK/Sources/","/Users/abdullah/GravlinkSDK/Sources/GlinkFramwork.xcframework/","/Users/abdullah/GravlinkSDK/Package.swift","/Users/abdullah/GravlinkSDK/Package.resolved"]
+    inputs: ["/Users/abdullah/GravlinkSDK/Sources/GlinkFramwork.xcframework/","/Users/abdullah/GravlinkSDK/Package.swift","/Users/abdullah/GravlinkSDK/Package.resolved"]
     outputs: ["<PackageStructure>"]
     description: "Planning build"
     allow-missing-inputs: true
