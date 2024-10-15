@@ -7,9 +7,10 @@ let package = Package(
         .iOS(.v13)
     ],
     products: [
+        // Expose the binary framework as the product of the package
         .library(
             name: "GravlinkSDK",
-            targets: ["GravlinkBinary"]
+            targets: ["GravlinkSDK"]
         ),
     ],
     dependencies: [
@@ -19,8 +20,9 @@ let package = Package(
         .package(url: "https://github.com/socketio/socket.io-client-swift.git", branch: "master")
     ],
     targets: [
+        // Binary target pointing to the XCFramework
         .binaryTarget(
-            name: "GravlinkBinary",
+            name: "GravlinkSDK",
             path: "./Sources/GlinkFramwork.xcframework"
         )
     ]
