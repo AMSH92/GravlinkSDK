@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/GlinkFramwork.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		AA7wRDEuxCLBAbUB+0/+2hcrdg0=
+		LOeLx2RZc4uL51OQaIO8D82F+xA=
 		</data>
 		<key>Modules/GlinkFramwork.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		szZQ4lgejFGSwA/wnZ3DhKxFu6U=
+		YHgmKD7tkNq+iGYa/FXihGMEBZM=
 		</data>
 		<key>Modules/GlinkFramwork.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/GlinkFramwork.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		szZQ4lgejFGSwA/wnZ3DhKxFu6U=
+		YHgmKD7tkNq+iGYa/FXihGMEBZM=
 		</data>
 		<key>Modules/GlinkFramwork.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		5JMTkbsOaKM4dehWz5H+9mpMxR4=
+		nNA8WCRC37YcPT/o7StLGACptGs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,14 +50,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NSpPdb30UWWr5+fr/NNdF4LC+SQq0QVOqqwBTZP5bVY=
+			CBrAS4ddLZIWTnGz+ncPeOZUCPBEP8XYmahwjvZ0+Dc=
 			</data>
 		</dict>
 		<key>Modules/GlinkFramwork.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+Mo2wWmlVL++mPRhSnLB9JU0H0g4/cFjjSxaqp3oULI=
+			ZtL7iKiwh452mQiN61fRohn5ziWbeNADCBQRRTEcJAs=
 			</data>
 		</dict>
 		<key>Modules/GlinkFramwork.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -71,14 +71,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+Mo2wWmlVL++mPRhSnLB9JU0H0g4/cFjjSxaqp3oULI=
+			ZtL7iKiwh452mQiN61fRohn5ziWbeNADCBQRRTEcJAs=
 			</data>
 		</dict>
 		<key>Modules/GlinkFramwork.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+RXAgwhKnyAA4URfblGmEQGdIgLjWvknAPX0VJ6AwdA=
+			UhcciEf3hX/yuX1/q0hJYZAm408OhJ0TMGFLarz0aR8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

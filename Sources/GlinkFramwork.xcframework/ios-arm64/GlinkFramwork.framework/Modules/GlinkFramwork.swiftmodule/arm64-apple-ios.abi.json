@@ -142,8 +142,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "GravlinkSDK",
-        "printedName": "GravlinkSDK",
+        "name": "Gravlink",
+        "printedName": "Gravlink",
         "children": [
           {
             "kind": "Function",
@@ -163,8 +163,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13GlinkFramwork11GravlinkSDKV9configure6apiKeyySS_tFZ",
-            "mangledName": "$s13GlinkFramwork11GravlinkSDKV9configure6apiKeyySS_tFZ",
+            "usr": "s:13GlinkFramwork8GravlinkV9configure6apiKeyySS_tFZ",
+            "mangledName": "$s13GlinkFramwork8GravlinkV9configure6apiKeyySS_tFZ",
             "moduleName": "GlinkFramwork",
             "static": true,
             "declAttributes": [
@@ -190,8 +190,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13GlinkFramwork11GravlinkSDKV7setUser4useryAA05GLinkF0V_tFZ",
-            "mangledName": "$s13GlinkFramwork11GravlinkSDKV7setUser4useryAA05GLinkF0V_tFZ",
+            "usr": "s:13GlinkFramwork8GravlinkV7setUser4useryAA05GLinkE0V_tFZ",
+            "mangledName": "$s13GlinkFramwork8GravlinkV7setUser4useryAA05GLinkE0V_tFZ",
             "moduleName": "GlinkFramwork",
             "static": true,
             "declAttributes": [
@@ -217,8 +217,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13GlinkFramwork11GravlinkSDKV23setFCMNotificationToken5tokenyAA05GLinkG0V_tFZ",
-            "mangledName": "$s13GlinkFramwork11GravlinkSDKV23setFCMNotificationToken5tokenyAA05GLinkG0V_tFZ",
+            "usr": "s:13GlinkFramwork8GravlinkV23setFCMNotificationToken5tokenyAA05GLinkF0V_tFZ",
+            "mangledName": "$s13GlinkFramwork8GravlinkV23setFCMNotificationToken5tokenyAA05GLinkF0V_tFZ",
             "moduleName": "GlinkFramwork",
             "static": true,
             "declAttributes": [
@@ -267,8 +267,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13GlinkFramwork11GravlinkSDKV22userNotificationCenter_10didReceive21withCompletionHandlerySo06UNUserfG0C_So22UNNotificationResponseCyyctFZ",
-            "mangledName": "$s13GlinkFramwork11GravlinkSDKV22userNotificationCenter_10didReceive21withCompletionHandlerySo06UNUserfG0C_So22UNNotificationResponseCyyctFZ",
+            "usr": "s:13GlinkFramwork8GravlinkV22userNotificationCenter_10didReceive21withCompletionHandlerySo06UNUsereF0C_So22UNNotificationResponseCyyctFZ",
+            "mangledName": "$s13GlinkFramwork8GravlinkV22userNotificationCenter_10didReceive21withCompletionHandlerySo06UNUsereF0C_So22UNNotificationResponseCyyctFZ",
             "moduleName": "GlinkFramwork",
             "static": true,
             "declAttributes": [
@@ -306,8 +306,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13GlinkFramwork11GravlinkSDKV17gLinkPushRegistry_9didUpdate3forySo06PKPushG0C_So0K11CredentialsCSo0K4TypeatFZ",
-            "mangledName": "$s13GlinkFramwork11GravlinkSDKV17gLinkPushRegistry_9didUpdate3forySo06PKPushG0C_So0K11CredentialsCSo0K4TypeatFZ",
+            "usr": "s:13GlinkFramwork8GravlinkV17gLinkPushRegistry_9didUpdate3forySo06PKPushF0C_So0J11CredentialsCSo0J4TypeatFZ",
+            "mangledName": "$s13GlinkFramwork8GravlinkV17gLinkPushRegistry_9didUpdate3forySo06PKPushF0C_So0J11CredentialsCSo0J4TypeatFZ",
             "moduleName": "GlinkFramwork",
             "static": true,
             "declAttributes": [
@@ -362,8 +362,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13GlinkFramwork11GravlinkSDKV17gLinkPushRegistry_018didReceiveIncomingF4With3for10completionySo06PKPushG0C_So0N7PayloadCSo0N4TypeayyctFZ",
-            "mangledName": "$s13GlinkFramwork11GravlinkSDKV17gLinkPushRegistry_018didReceiveIncomingF4With3for10completionySo06PKPushG0C_So0N7PayloadCSo0N4TypeayyctFZ",
+            "usr": "s:13GlinkFramwork8GravlinkV17gLinkPushRegistry_018didReceiveIncomingE4With3for10completionySo06PKPushF0C_So0M7PayloadCSo0M4TypeayyctFZ",
+            "mangledName": "$s13GlinkFramwork8GravlinkV17gLinkPushRegistry_018didReceiveIncomingE4With3for10completionySo06PKPushF0C_So0M7PayloadCSo0M4TypeayyctFZ",
             "moduleName": "GlinkFramwork",
             "static": true,
             "declAttributes": [
@@ -373,8 +373,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:13GlinkFramwork11GravlinkSDKV",
-        "mangledName": "$s13GlinkFramwork11GravlinkSDKV",
+        "usr": "s:13GlinkFramwork8GravlinkV",
+        "mangledName": "$s13GlinkFramwork8GravlinkV",
         "moduleName": "GlinkFramwork",
         "declAttributes": [
           "AccessControl"
@@ -1609,77 +1609,77 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/abdullah\/Documents\/gravlink\/iOS\/GlinkFramwork\/GlinkFramwork\/GravlinkSDK.swift",
+      "filePath": "\/Users\/abdullah\/GlinkFramwork\/GlinkFramwork\/GravlinkSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 198,
+      "offset": 195,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullah\/Documents\/gravlink\/iOS\/GlinkFramwork\/GlinkFramwork\/Sources\/Networking\/ClientUserEndPoint.swift",
+      "filePath": "\/Users\/abdullah\/GlinkFramwork\/GlinkFramwork\/Sources\/Networking\/ClientUserEndPoint.swift",
       "kind": "StringLiteral",
       "offset": 210,
       "length": 5,
       "value": "\"pcm\""
     },
     {
-      "filePath": "\/Users\/abdullah\/Documents\/gravlink\/iOS\/GlinkFramwork\/GlinkFramwork\/Sources\/Networking\/ClientUserEndPoint.swift",
+      "filePath": "\/Users\/abdullah\/GlinkFramwork\/GlinkFramwork\/Sources\/Networking\/ClientUserEndPoint.swift",
       "kind": "StringLiteral",
       "offset": 232,
       "length": 6,
       "value": "\"voip\""
     },
     {
-      "filePath": "\/Users\/abdullah\/Documents\/gravlink\/iOS\/GlinkFramwork\/GlinkFramwork\/Sources\/Networking\/ClientUserEndPoint.swift",
+      "filePath": "\/Users\/abdullah\/GlinkFramwork\/GlinkFramwork\/Sources\/Networking\/ClientUserEndPoint.swift",
       "kind": "StringLiteral",
       "offset": 210,
       "length": 5,
       "value": "\"pcm\""
     },
     {
-      "filePath": "\/Users\/abdullah\/Documents\/gravlink\/iOS\/GlinkFramwork\/GlinkFramwork\/Sources\/Networking\/ClientUserEndPoint.swift",
+      "filePath": "\/Users\/abdullah\/GlinkFramwork\/GlinkFramwork\/Sources\/Networking\/ClientUserEndPoint.swift",
       "kind": "StringLiteral",
       "offset": 232,
       "length": 6,
       "value": "\"voip\""
     },
     {
-      "filePath": "\/Users\/abdullah\/Documents\/gravlink\/iOS\/GlinkFramwork\/GlinkFramwork\/Sources\/Logger.swift",
+      "filePath": "\/Users\/abdullah\/GlinkFramwork\/GlinkFramwork\/Sources\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 101,
       "length": 6,
       "value": "\"INFO\""
     },
     {
-      "filePath": "\/Users\/abdullah\/Documents\/gravlink\/iOS\/GlinkFramwork\/GlinkFramwork\/Sources\/Logger.swift",
+      "filePath": "\/Users\/abdullah\/GlinkFramwork\/GlinkFramwork\/Sources\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 131,
       "length": 9,
       "value": "\"WARNING\""
     },
     {
-      "filePath": "\/Users\/abdullah\/Documents\/gravlink\/iOS\/GlinkFramwork\/GlinkFramwork\/Sources\/Logger.swift",
+      "filePath": "\/Users\/abdullah\/GlinkFramwork\/GlinkFramwork\/Sources\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 162,
       "length": 7,
       "value": "\"ERROR\""
     },
     {
-      "filePath": "\/Users\/abdullah\/Documents\/gravlink\/iOS\/GlinkFramwork\/GlinkFramwork\/Sources\/Logger.swift",
+      "filePath": "\/Users\/abdullah\/GlinkFramwork\/GlinkFramwork\/Sources\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 101,
       "length": 6,
       "value": "\"INFO\""
     },
     {
-      "filePath": "\/Users\/abdullah\/Documents\/gravlink\/iOS\/GlinkFramwork\/GlinkFramwork\/Sources\/Logger.swift",
+      "filePath": "\/Users\/abdullah\/GlinkFramwork\/GlinkFramwork\/Sources\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 131,
       "length": 9,
       "value": "\"WARNING\""
     },
     {
-      "filePath": "\/Users\/abdullah\/Documents\/gravlink\/iOS\/GlinkFramwork\/GlinkFramwork\/Sources\/Logger.swift",
+      "filePath": "\/Users\/abdullah\/GlinkFramwork\/GlinkFramwork\/Sources\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 162,
       "length": 7,

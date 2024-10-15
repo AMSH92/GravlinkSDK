@@ -20,7 +20,7 @@ import _SwiftConcurrencyShims
   public static let shared: GlinkFramwork.NetworkManager
   @objc deinit
 }
-public struct GravlinkSDK {
+public struct Gravlink {
   public static func configure(apiKey: Swift.String)
   public static func setUser(user: GlinkFramwork.GLinkUser)
   public static func setFCMNotificationToken(token: GlinkFramwork.GLinkToken)
