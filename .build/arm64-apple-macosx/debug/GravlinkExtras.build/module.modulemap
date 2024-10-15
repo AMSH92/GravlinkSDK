@@ -1,0 +1,4 @@
+module GravlinkExtras {
+    header "/Users/abdullah/GravlinkSDK/.build/arm64-apple-macosx/debug/GravlinkExtras.build/GravlinkExtras-Swift.h"
+    requires objc
+}

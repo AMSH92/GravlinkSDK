@@ -1,0 +1,1689 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GlinkFramwork"
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "GlinkFramwork"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkManager",
+        "printedName": "NetworkManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkManager",
+                "printedName": "GlinkFramwork.NetworkManager",
+                "usr": "s:13GlinkFramwork14NetworkManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GlinkFramwork14NetworkManagerC6sharedACvpZ",
+            "mangledName": "$s13GlinkFramwork14NetworkManagerC6sharedACvpZ",
+            "moduleName": "GlinkFramwork",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkManager",
+                    "printedName": "GlinkFramwork.NetworkManager",
+                    "usr": "s:13GlinkFramwork14NetworkManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GlinkFramwork14NetworkManagerC6sharedACvgZ",
+                "mangledName": "$s13GlinkFramwork14NetworkManagerC6sharedACvgZ",
+                "moduleName": "GlinkFramwork",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13GlinkFramwork14NetworkManagerC",
+        "mangledName": "$s13GlinkFramwork14NetworkManagerC",
+        "moduleName": "GlinkFramwork",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GlinkFramwork"
+      },
+      {
+        "kind": "Import",
+        "name": "WebRTC",
+        "printedName": "WebRTC",
+        "declKind": "Import",
+        "moduleName": "GlinkFramwork"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GlinkFramwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "GlinkFramwork"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GlinkFramwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PushKit",
+        "printedName": "PushKit",
+        "declKind": "Import",
+        "moduleName": "GlinkFramwork"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "GlinkFramwork"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GravlinkSDK",
+        "printedName": "GravlinkSDK",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(apiKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GlinkFramwork11GravlinkSDKV9configure6apiKeyySS_tFZ",
+            "mangledName": "$s13GlinkFramwork11GravlinkSDKV9configure6apiKeyySS_tFZ",
+            "moduleName": "GlinkFramwork",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUser",
+            "printedName": "setUser(user:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GLinkUser",
+                "printedName": "GlinkFramwork.GLinkUser",
+                "usr": "s:13GlinkFramwork9GLinkUserV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GlinkFramwork11GravlinkSDKV7setUser4useryAA05GLinkF0V_tFZ",
+            "mangledName": "$s13GlinkFramwork11GravlinkSDKV7setUser4useryAA05GLinkF0V_tFZ",
+            "moduleName": "GlinkFramwork",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setFCMNotificationToken",
+            "printedName": "setFCMNotificationToken(token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GLinkToken",
+                "printedName": "GlinkFramwork.GLinkToken",
+                "usr": "s:13GlinkFramwork10GLinkTokenV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GlinkFramwork11GravlinkSDKV23setFCMNotificationToken5tokenyAA05GLinkG0V_tFZ",
+            "mangledName": "$s13GlinkFramwork11GravlinkSDKV23setFCMNotificationToken5tokenyAA05GLinkG0V_tFZ",
+            "moduleName": "GlinkFramwork",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userNotificationCenter",
+            "printedName": "userNotificationCenter(_:didReceive:withCompletionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNUserNotificationCenter",
+                "printedName": "UserNotifications.UNUserNotificationCenter",
+                "usr": "c:objc(cs)UNUserNotificationCenter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationResponse",
+                "printedName": "UserNotifications.UNNotificationResponse",
+                "usr": "c:objc(cs)UNNotificationResponse"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GlinkFramwork11GravlinkSDKV22userNotificationCenter_10didReceive21withCompletionHandlerySo06UNUserfG0C_So22UNNotificationResponseCyyctFZ",
+            "mangledName": "$s13GlinkFramwork11GravlinkSDKV22userNotificationCenter_10didReceive21withCompletionHandlerySo06UNUserfG0C_So22UNNotificationResponseCyyctFZ",
+            "moduleName": "GlinkFramwork",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "gLinkPushRegistry",
+            "printedName": "gLinkPushRegistry(_:didUpdate:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PKPushRegistry",
+                "printedName": "PushKit.PKPushRegistry",
+                "usr": "c:objc(cs)PKPushRegistry"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PKPushCredentials",
+                "printedName": "PushKit.PKPushCredentials",
+                "usr": "c:objc(cs)PKPushCredentials"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PKPushType",
+                "printedName": "PushKit.PKPushType",
+                "usr": "c:@T@PKPushType"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GlinkFramwork11GravlinkSDKV17gLinkPushRegistry_9didUpdate3forySo06PKPushG0C_So0K11CredentialsCSo0K4TypeatFZ",
+            "mangledName": "$s13GlinkFramwork11GravlinkSDKV17gLinkPushRegistry_9didUpdate3forySo06PKPushG0C_So0K11CredentialsCSo0K4TypeatFZ",
+            "moduleName": "GlinkFramwork",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "gLinkPushRegistry",
+            "printedName": "gLinkPushRegistry(_:didReceiveIncomingPushWith:for:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PKPushRegistry",
+                "printedName": "PushKit.PKPushRegistry",
+                "usr": "c:objc(cs)PKPushRegistry"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PKPushPayload",
+                "printedName": "PushKit.PKPushPayload",
+                "usr": "c:objc(cs)PKPushPayload"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PKPushType",
+                "printedName": "PushKit.PKPushType",
+                "usr": "c:@T@PKPushType"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GlinkFramwork11GravlinkSDKV17gLinkPushRegistry_018didReceiveIncomingF4With3for10completionySo06PKPushG0C_So0N7PayloadCSo0N4TypeayyctFZ",
+            "mangledName": "$s13GlinkFramwork11GravlinkSDKV17gLinkPushRegistry_018didReceiveIncomingF4With3for10completionySo06PKPushG0C_So0N7PayloadCSo0N4TypeayyctFZ",
+            "moduleName": "GlinkFramwork",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13GlinkFramwork11GravlinkSDKV",
+        "mangledName": "$s13GlinkFramwork11GravlinkSDKV",
+        "moduleName": "GlinkFramwork",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GlinkFramwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "GlinkFramwork"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GLinkNotificationType",
+        "printedName": "GLinkNotificationType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "pcm",
+            "printedName": "pcm",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GlinkFramwork.GLinkNotificationType.Type) -> GlinkFramwork.GLinkNotificationType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GLinkNotificationType",
+                    "printedName": "GlinkFramwork.GLinkNotificationType",
+                    "usr": "s:13GlinkFramwork21GLinkNotificationTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GlinkFramwork.GLinkNotificationType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GLinkNotificationType",
+                        "printedName": "GlinkFramwork.GLinkNotificationType",
+                        "usr": "s:13GlinkFramwork21GLinkNotificationTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13GlinkFramwork21GLinkNotificationTypeO3pcmyA2CmF",
+            "mangledName": "$s13GlinkFramwork21GLinkNotificationTypeO3pcmyA2CmF",
+            "moduleName": "GlinkFramwork"
+          },
+          {
+            "kind": "Var",
+            "name": "voip",
+            "printedName": "voip",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GlinkFramwork.GLinkNotificationType.Type) -> GlinkFramwork.GLinkNotificationType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GLinkNotificationType",
+                    "printedName": "GlinkFramwork.GLinkNotificationType",
+                    "usr": "s:13GlinkFramwork21GLinkNotificationTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GlinkFramwork.GLinkNotificationType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GLinkNotificationType",
+                        "printedName": "GlinkFramwork.GLinkNotificationType",
+                        "usr": "s:13GlinkFramwork21GLinkNotificationTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13GlinkFramwork21GLinkNotificationTypeO4voipyA2CmF",
+            "mangledName": "$s13GlinkFramwork21GLinkNotificationTypeO4voipyA2CmF",
+            "moduleName": "GlinkFramwork"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GlinkFramwork.GLinkNotificationType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GLinkNotificationType",
+                    "printedName": "GlinkFramwork.GLinkNotificationType",
+                    "usr": "s:13GlinkFramwork21GLinkNotificationTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13GlinkFramwork21GLinkNotificationTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s13GlinkFramwork21GLinkNotificationTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "GlinkFramwork",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GlinkFramwork21GLinkNotificationTypeO8rawValueSSvp",
+            "mangledName": "$s13GlinkFramwork21GLinkNotificationTypeO8rawValueSSvp",
+            "moduleName": "GlinkFramwork",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GlinkFramwork21GLinkNotificationTypeO8rawValueSSvg",
+                "mangledName": "$s13GlinkFramwork21GLinkNotificationTypeO8rawValueSSvg",
+                "moduleName": "GlinkFramwork",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13GlinkFramwork21GLinkNotificationTypeO",
+        "mangledName": "$s13GlinkFramwork21GLinkNotificationTypeO",
+        "moduleName": "GlinkFramwork",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GLinkToken",
+        "printedName": "GLinkToken",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(token:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GLinkToken",
+                "printedName": "GlinkFramwork.GLinkToken",
+                "usr": "s:13GlinkFramwork10GLinkTokenV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GLinkNotificationType",
+                "printedName": "GlinkFramwork.GLinkNotificationType",
+                "usr": "s:13GlinkFramwork21GLinkNotificationTypeO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13GlinkFramwork10GLinkTokenV5token4typeACSS_AA0C16NotificationTypeOtcfc",
+            "mangledName": "$s13GlinkFramwork10GLinkTokenV5token4typeACSS_AA0C16NotificationTypeOtcfc",
+            "moduleName": "GlinkFramwork",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GlinkFramwork10GLinkTokenV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13GlinkFramwork10GLinkTokenV6encode2toys7Encoder_p_tKF",
+            "moduleName": "GlinkFramwork",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13GlinkFramwork10GLinkTokenV",
+        "mangledName": "$s13GlinkFramwork10GLinkTokenV",
+        "moduleName": "GlinkFramwork",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GLinkUser",
+        "printedName": "GLinkUser",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(userId:fistName:lastName:PCMNotificationToken:VOIPNotificationToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GLinkUser",
+                "printedName": "GlinkFramwork.GLinkUser",
+                "usr": "s:13GlinkFramwork9GLinkUserV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13GlinkFramwork9GLinkUserV6userId8fistName04lastH020PCMNotificationToken016VOIPNotificationK0ACSS_S3SSgAItcfc",
+            "mangledName": "$s13GlinkFramwork9GLinkUserV6userId8fistName04lastH020PCMNotificationToken016VOIPNotificationK0ACSS_S3SSgAItcfc",
+            "moduleName": "GlinkFramwork",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GlinkFramwork9GLinkUserV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13GlinkFramwork9GLinkUserV6encode2toys7Encoder_p_tKF",
+            "moduleName": "GlinkFramwork",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13GlinkFramwork9GLinkUserV",
+        "mangledName": "$s13GlinkFramwork9GLinkUserV",
+        "moduleName": "GlinkFramwork",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GlinkFramwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebRTC",
+        "printedName": "WebRTC",
+        "declKind": "Import",
+        "moduleName": "GlinkFramwork"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GlinkFramwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SocketIO",
+        "printedName": "SocketIO",
+        "declKind": "Import",
+        "moduleName": "GlinkFramwork"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "GlinkFramwork"
+      },
+      {
+        "kind": "Import",
+        "name": "WebRTC",
+        "printedName": "WebRTC",
+        "declKind": "Import",
+        "moduleName": "GlinkFramwork"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GlinkFramwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CallKit",
+        "printedName": "CallKit",
+        "declKind": "Import",
+        "moduleName": "GlinkFramwork"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "GlinkFramwork"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "GlinkFramwork"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GlinkFramwork"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Logger",
+        "printedName": "Logger",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "LogLevel",
+            "printedName": "LogLevel",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "info",
+                "printedName": "info",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(GlinkFramwork.Logger.LogLevel.Type) -> GlinkFramwork.Logger.LogLevel",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "GlinkFramwork.Logger.LogLevel",
+                        "usr": "s:13GlinkFramwork6LoggerC8LogLevelO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "GlinkFramwork.Logger.LogLevel.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LogLevel",
+                            "printedName": "GlinkFramwork.Logger.LogLevel",
+                            "usr": "s:13GlinkFramwork6LoggerC8LogLevelO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13GlinkFramwork6LoggerC8LogLevelO4infoyA2EmF",
+                "mangledName": "$s13GlinkFramwork6LoggerC8LogLevelO4infoyA2EmF",
+                "moduleName": "GlinkFramwork"
+              },
+              {
+                "kind": "Var",
+                "name": "warning",
+                "printedName": "warning",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(GlinkFramwork.Logger.LogLevel.Type) -> GlinkFramwork.Logger.LogLevel",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "GlinkFramwork.Logger.LogLevel",
+                        "usr": "s:13GlinkFramwork6LoggerC8LogLevelO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "GlinkFramwork.Logger.LogLevel.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LogLevel",
+                            "printedName": "GlinkFramwork.Logger.LogLevel",
+                            "usr": "s:13GlinkFramwork6LoggerC8LogLevelO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13GlinkFramwork6LoggerC8LogLevelO7warningyA2EmF",
+                "mangledName": "$s13GlinkFramwork6LoggerC8LogLevelO7warningyA2EmF",
+                "moduleName": "GlinkFramwork"
+              },
+              {
+                "kind": "Var",
+                "name": "error",
+                "printedName": "error",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(GlinkFramwork.Logger.LogLevel.Type) -> GlinkFramwork.Logger.LogLevel",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "GlinkFramwork.Logger.LogLevel",
+                        "usr": "s:13GlinkFramwork6LoggerC8LogLevelO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "GlinkFramwork.Logger.LogLevel.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LogLevel",
+                            "printedName": "GlinkFramwork.Logger.LogLevel",
+                            "usr": "s:13GlinkFramwork6LoggerC8LogLevelO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13GlinkFramwork6LoggerC8LogLevelO5erroryA2EmF",
+                "mangledName": "$s13GlinkFramwork6LoggerC8LogLevelO5erroryA2EmF",
+                "moduleName": "GlinkFramwork"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GlinkFramwork.Logger.LogLevel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "GlinkFramwork.Logger.LogLevel",
+                        "usr": "s:13GlinkFramwork6LoggerC8LogLevelO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:13GlinkFramwork6LoggerC8LogLevelO8rawValueAESgSS_tcfc",
+                "mangledName": "$s13GlinkFramwork6LoggerC8LogLevelO8rawValueAESgSS_tcfc",
+                "moduleName": "GlinkFramwork",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13GlinkFramwork6LoggerC8LogLevelO8rawValueSSvp",
+                "mangledName": "$s13GlinkFramwork6LoggerC8LogLevelO8rawValueSSvp",
+                "moduleName": "GlinkFramwork",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13GlinkFramwork6LoggerC8LogLevelO8rawValueSSvg",
+                    "mangledName": "$s13GlinkFramwork6LoggerC8LogLevelO8rawValueSSvg",
+                    "moduleName": "GlinkFramwork",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:13GlinkFramwork6LoggerC8LogLevelO",
+            "mangledName": "$s13GlinkFramwork6LoggerC8LogLevelO",
+            "moduleName": "GlinkFramwork",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "log",
+            "printedName": "log(_:level:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "GlinkFramwork.Logger.LogLevel",
+                "hasDefaultArg": true,
+                "usr": "s:13GlinkFramwork6LoggerC8LogLevelO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GlinkFramwork6LoggerC3log_5levelySS_AC8LogLevelOtFZ",
+            "mangledName": "$s13GlinkFramwork6LoggerC3log_5levelySS_AC8LogLevelOtFZ",
+            "moduleName": "GlinkFramwork",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13GlinkFramwork6LoggerC",
+        "mangledName": "$s13GlinkFramwork6LoggerC",
+        "moduleName": "GlinkFramwork",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GlinkFramwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "GlinkFramwork"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GlinkFramwork"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GlinkFramwork"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EmptyApiModel",
+        "printedName": "EmptyApiModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EmptyApiModel",
+                "printedName": "GlinkFramwork.EmptyApiModel",
+                "usr": "s:13GlinkFramwork13EmptyApiModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13GlinkFramwork13EmptyApiModelV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s13GlinkFramwork13EmptyApiModelV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "GlinkFramwork",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GlinkFramwork13EmptyApiModelV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13GlinkFramwork13EmptyApiModelV6encode2toys7Encoder_p_tKF",
+            "moduleName": "GlinkFramwork",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13GlinkFramwork13EmptyApiModelV",
+        "mangledName": "$s13GlinkFramwork13EmptyApiModelV",
+        "moduleName": "GlinkFramwork",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EnvelopeApiModel",
+        "printedName": "EnvelopeApiModel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GlinkFramwork16EnvelopeApiModelV4dataxSgvp",
+            "mangledName": "$s13GlinkFramwork16EnvelopeApiModelV4dataxSgvp",
+            "moduleName": "GlinkFramwork",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GlinkFramwork16EnvelopeApiModelV4dataxSgvg",
+                "mangledName": "$s13GlinkFramwork16EnvelopeApiModelV4dataxSgvg",
+                "moduleName": "GlinkFramwork",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GlinkFramwork16EnvelopeApiModelV7messageSSSgvp",
+            "mangledName": "$s13GlinkFramwork16EnvelopeApiModelV7messageSSSgvp",
+            "moduleName": "GlinkFramwork",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GlinkFramwork16EnvelopeApiModelV7messageSSSgvg",
+                "mangledName": "$s13GlinkFramwork16EnvelopeApiModelV7messageSSSgvg",
+                "moduleName": "GlinkFramwork",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasError",
+            "printedName": "hasError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GlinkFramwork16EnvelopeApiModelV8hasErrorSbSgvp",
+            "mangledName": "$s13GlinkFramwork16EnvelopeApiModelV8hasErrorSbSgvp",
+            "moduleName": "GlinkFramwork",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GlinkFramwork16EnvelopeApiModelV8hasErrorSbSgvg",
+                "mangledName": "$s13GlinkFramwork16EnvelopeApiModelV8hasErrorSbSgvg",
+                "moduleName": "GlinkFramwork",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EnvelopeApiModel",
+                "printedName": "GlinkFramwork.EnvelopeApiModel<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:13GlinkFramwork16EnvelopeApiModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13GlinkFramwork16EnvelopeApiModelV4fromACyxGs7Decoder_p_tKcfc",
+            "mangledName": "$s13GlinkFramwork16EnvelopeApiModelV4fromACyxGs7Decoder_p_tKcfc",
+            "moduleName": "GlinkFramwork",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EnvelopeApiModel",
+                "printedName": "GlinkFramwork.EnvelopeApiModel<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:13GlinkFramwork16EnvelopeApiModelV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13GlinkFramwork16EnvelopeApiModelVACyxGycfc",
+            "mangledName": "$s13GlinkFramwork16EnvelopeApiModelVACyxGycfc",
+            "moduleName": "GlinkFramwork",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GlinkFramwork16EnvelopeApiModelV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13GlinkFramwork16EnvelopeApiModelV6encode2toys7Encoder_p_tKF",
+            "moduleName": "GlinkFramwork",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13GlinkFramwork16EnvelopeApiModelV",
+        "mangledName": "$s13GlinkFramwork16EnvelopeApiModelV",
+        "moduleName": "GlinkFramwork",
+        "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+        "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GlinkFramwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/abdullah\/Documents\/gravlink\/iOS\/GlinkFramwork\/GlinkFramwork\/GravlinkSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 198,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/abdullah\/Documents\/gravlink\/iOS\/GlinkFramwork\/GlinkFramwork\/Sources\/Networking\/ClientUserEndPoint.swift",
+      "kind": "StringLiteral",
+      "offset": 210,
+      "length": 5,
+      "value": "\"pcm\""
+    },
+    {
+      "filePath": "\/Users\/abdullah\/Documents\/gravlink\/iOS\/GlinkFramwork\/GlinkFramwork\/Sources\/Networking\/ClientUserEndPoint.swift",
+      "kind": "StringLiteral",
+      "offset": 232,
+      "length": 6,
+      "value": "\"voip\""
+    },
+    {
+      "filePath": "\/Users\/abdullah\/Documents\/gravlink\/iOS\/GlinkFramwork\/GlinkFramwork\/Sources\/Networking\/ClientUserEndPoint.swift",
+      "kind": "StringLiteral",
+      "offset": 210,
+      "length": 5,
+      "value": "\"pcm\""
+    },
+    {
+      "filePath": "\/Users\/abdullah\/Documents\/gravlink\/iOS\/GlinkFramwork\/GlinkFramwork\/Sources\/Networking\/ClientUserEndPoint.swift",
+      "kind": "StringLiteral",
+      "offset": 232,
+      "length": 6,
+      "value": "\"voip\""
+    },
+    {
+      "filePath": "\/Users\/abdullah\/Documents\/gravlink\/iOS\/GlinkFramwork\/GlinkFramwork\/Sources\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 101,
+      "length": 6,
+      "value": "\"INFO\""
+    },
+    {
+      "filePath": "\/Users\/abdullah\/Documents\/gravlink\/iOS\/GlinkFramwork\/GlinkFramwork\/Sources\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 131,
+      "length": 9,
+      "value": "\"WARNING\""
+    },
+    {
+      "filePath": "\/Users\/abdullah\/Documents\/gravlink\/iOS\/GlinkFramwork\/GlinkFramwork\/Sources\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 162,
+      "length": 7,
+      "value": "\"ERROR\""
+    },
+    {
+      "filePath": "\/Users\/abdullah\/Documents\/gravlink\/iOS\/GlinkFramwork\/GlinkFramwork\/Sources\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 101,
+      "length": 6,
+      "value": "\"INFO\""
+    },
+    {
+      "filePath": "\/Users\/abdullah\/Documents\/gravlink\/iOS\/GlinkFramwork\/GlinkFramwork\/Sources\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 131,
+      "length": 9,
+      "value": "\"WARNING\""
+    },
+    {
+      "filePath": "\/Users\/abdullah\/Documents\/gravlink\/iOS\/GlinkFramwork\/GlinkFramwork\/Sources\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 162,
+      "length": 7,
+      "value": "\"ERROR\""
+    }
+  ]
+}

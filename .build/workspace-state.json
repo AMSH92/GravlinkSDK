@@ -1,0 +1,107 @@
+{
+  "object" : {
+    "artifacts" : [
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "gravlinksdk",
+          "kind" : "root",
+          "location" : "/Users/abdullah/GravlinkSDK",
+          "name" : "GravlinkSDK"
+        },
+        "path" : "/Users/abdullah/GravlinkSDK/Sources/GlinkFramwork.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "GravlinkBinary"
+      },
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "webrtc",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/stasel/WebRTC.git",
+          "name" : "WebRTC"
+        },
+        "path" : "/Users/abdullah/GravlinkSDK/.build/artifacts/webrtc/WebRTC/WebRTC.xcframework",
+        "source" : {
+          "checksum" : "2e93f0fca76095909399540766cc1382d687646231e530ecb40b8e1ba275f2b9",
+          "type" : "remote",
+          "url" : "https://github.com/stasel/WebRTC/releases/download/129.0.0/WebRTC-M129.xcframework.zip"
+        },
+        "targetName" : "WebRTC"
+      }
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "alamofire",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/Alamofire/Alamofire.git",
+          "name" : "Alamofire"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "ea6a94b7dddffd0ca4d0f29252d95310b84dec84",
+            "version" : "5.10.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "Alamofire"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "socket.io-client-swift",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/socketio/socket.io-client-swift.git",
+          "name" : "SocketIO"
+        },
+        "state" : {
+          "checkoutState" : {
+            "branch" : "master",
+            "revision" : "42da871d9369f290d6ec4930636c40672143905b"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "socket.io-client-swift"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "starscream",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/daltoniam/Starscream",
+          "name" : "Starscream"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "c6bfd1af48efcc9a9ad203665db12375ba6b145a",
+            "version" : "4.0.8"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "Starscream"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "webrtc",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/stasel/WebRTC.git",
+          "name" : "WebRTC"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "c7670a5fa958cbedc5924981a3ccc4a2df2067f9",
+            "version" : "129.0.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "WebRTC"
+      }
+    ]
+  },
+  "version" : 6
+}
