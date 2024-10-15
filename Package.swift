@@ -6,6 +6,7 @@ let package = Package(
     platforms: [
         .iOS(.v13)
     ],
+    
     products: [
         // Expose the binary framework as the product of the package
         .library(
