@@ -1,0 +1,6 @@
+framework module GlinkFramework {
+  umbrella header "GlinkFramework.h"
+  export *
+
+  module * { export * }
+}
