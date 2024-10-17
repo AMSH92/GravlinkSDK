@@ -9,27 +9,11 @@
           "location" : "/Users/abdullah/GravlinkSDK",
           "name" : "GravlinkSDK"
         },
-        "path" : "/Users/abdullah/GravlinkSDK/Sources/GlinkFramwork.xcframework",
+        "path" : "/Users/abdullah/GravlinkSDK/build/GlinkFramework.xcframework",
         "source" : {
           "type" : "local"
         },
-        "targetName" : "GravlinkSDK"
-      },
-      {
-        "kind" : "xcframework",
-        "packageRef" : {
-          "identity" : "webrtc",
-          "kind" : "remoteSourceControl",
-          "location" : "https://github.com/stasel/WebRTC.git",
-          "name" : "WebRTC"
-        },
-        "path" : "/Users/abdullah/GravlinkSDK/.build/artifacts/webrtc/WebRTC/WebRTC.xcframework",
-        "source" : {
-          "checksum" : "2e93f0fca76095909399540766cc1382d687646231e530ecb40b8e1ba275f2b9",
-          "type" : "remote",
-          "url" : "https://github.com/stasel/WebRTC/releases/download/129.0.0/WebRTC-M129.xcframework.zip"
-        },
-        "targetName" : "WebRTC"
+        "targetName" : "GlinkFramework"
       }
     ],
     "dependencies" : [
@@ -94,8 +78,8 @@
         },
         "state" : {
           "checkoutState" : {
-            "revision" : "c7670a5fa958cbedc5924981a3ccc4a2df2067f9",
-            "version" : "129.0.0"
+            "revision" : "8ce70d799bc637be04489376ebae7334061a1db0",
+            "version" : "94.0.0"
           },
           "name" : "sourceControlCheckout"
         },

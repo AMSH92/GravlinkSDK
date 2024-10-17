@@ -5,6 +5,6 @@
 	ignorecase = true
 	precomposeunicode = true
 [remote "origin"]
-	url = https://github.com/socketio/socket.io-client-swift.git
+	url = https://github.com/socketio/socket.io-client-swift
 	fetch = +refs/*:refs/*
 	mirror = true
