@@ -11,6 +11,7 @@ public struct Gravlink {
     private static let socketManager = SocketIOManager()
     private static let callManager = CallManager.shared
 
+    
     private static func checkAPIKey() -> Bool {
         if !isAPIKeyValid {
             Logger.log("Please Set ApiKey", level: .error)
